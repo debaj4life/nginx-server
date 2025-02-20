@@ -4,8 +4,9 @@
 This Terraform configuration creates a VPC with 3 public subnets, 3 private subnets, an Internet Gateway, a Security Group, and an EC2 instance running NGINX.
 
 ### Deployment Steps (Prerequisites)
-###### Install Terraform
-###### Have an AWS account with credentials configured.
+
+Install Terraform
+Have an AWS account with credentials configured.
 Your own Key pair created from AWS.
 
 ### Clone Repository
