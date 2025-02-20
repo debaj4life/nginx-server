@@ -1,6 +1,6 @@
 # nginx-server
 
-''Overview
+Overview
 This Terraform configuration creates a VPC with 3 public subnets, 3 private subnets, an Internet Gateway, a Security Group, and an EC2 instance running NGINX.
 
 Deployment Steps (Prerequisites)
@@ -20,6 +20,8 @@ terraform apply
 
 File Structure
 
+```
+
 ├── main.tf                 # Main configuration file that calls the module
 ├── provider.tf             # AWS provider configuration
 ├── variable.tf             # Defines variables to be used across the configurationat
@@ -30,6 +32,7 @@ File Structure
 │   ├── security            # Security folders containing the MOV files - maint.tf, output.tf and variable.tf files 
 │__.gitignore              # Specifies files to ignore by git during commit process.
 
+```
 
 Resources Created
 
