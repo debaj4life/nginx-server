@@ -14,9 +14,13 @@ git clone the repo on your terminal
 cd into your repo for continuous coding.
 
 Run the following command to see the proposed changes: To apply the changes and create the resources.
+
+```
 terraform init
 terraform plan
 terraform apply
+
+```
 
 File Structure
 
