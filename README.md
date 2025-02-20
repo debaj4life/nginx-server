@@ -43,6 +43,7 @@ terraform apply
 ### Resources Created
 
 VPC (10.0.0.0/16)
+```
 Public Subnets (10.0.1.0/24, 10.0.2.0/24, 10.0.3.0/24)
 Private Subnets (10.0.4.0/24, 10.0.5.0/24, 10.0.6.0/24)
 Availability zonez (eu-west-2a, eu-west-2b, eu-west-2c)
@@ -50,3 +51,4 @@ Internet Gateway for internet access
 Route Table with routes to the Internet Gateway
 Security Group allowing SSH (22) and HTTP (80)
 EC2 Instance (t2.micro) running NGINX
+```
