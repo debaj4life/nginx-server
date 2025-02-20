@@ -5,7 +5,7 @@ This Terraform configuration creates a VPC with 3 public subnets, 3 private subn
 
 ### Deployment Steps (Prerequisites)
 ###### Install Terraform
-Have an AWS account with credentials configured.
+###### Have an AWS account with credentials configured.
 Your own Key pair created from AWS.
 
 ### Clone Repository
