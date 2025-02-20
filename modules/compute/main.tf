@@ -1,4 +1,4 @@
-resource "aws_instance" "web_server" {
+resource "aws_instance" "nginx_server" {
   ami                    = var.ami
   instance_type          = var.instance_type
   key_name               = "tutorial-key"
@@ -6,8 +6,8 @@ resource "aws_instance" "web_server" {
   associate_public_ip_address = true
   security_groups        = [var.security_group_id]
 
-  user_data = file("${path.module}/../../web-userdata.sh") 
+  user_data = file("${path.module}/../../nginx-userdata.sh") 
   tags = {
-    Name = "Global-web-server"
+    Name = "Nginx-web-server"
   }
 }
