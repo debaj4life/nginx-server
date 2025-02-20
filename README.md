@@ -3,17 +3,17 @@
 ### Overview
 This Terraform configuration creates a VPC with 3 public subnets, 3 private subnets, an Internet Gateway, a Security Group, and an EC2 instance running NGINX.
 
-Deployment Steps (Prerequisites)
+### Deployment Steps (Prerequisites)
 Install Terraform
 Have an AWS account with credentials configured.
 Your own Key pair created from AWS.
 
-Clone Repository
+### Clone Repository
 Create a repo from Github.
 git clone the repo on your terminal
 cd into your repo for continuous coding.
 
-Run the following command to see the proposed changes: To apply the changes and create the resources.
+### Run the following command to see the proposed changes: To apply the changes and create the resources.
 
 ```
 terraform init
@@ -22,7 +22,7 @@ terraform apply
 
 ```
 
-File Structure
+### File Structure
 
 ```
 
@@ -38,7 +38,7 @@ File Structure
 
 ```
 
-Resources Created
+### Resources Created
 
 VPC (10.0.0.0/16)
 Public Subnets (10.0.1.0/24, 10.0.2.0/24, 10.0.3.0/24)
